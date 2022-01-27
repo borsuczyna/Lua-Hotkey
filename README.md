@@ -23,6 +23,7 @@ mouse.click(int: x, int: y, int: button, int:time)
 keyboard.getKeyState(int: key)
 keyboard.getAsyncKeyState(int: key)
 keyboard.setKeyState(int: key, bool: state)
+keyboard.execute(string: text)
 
 screen.getDimensions()
 screen.getPixelColor(int: x, int: y)
