@@ -1,9 +1,9 @@
 Commands: 
 
 ```
-!runfile [absolute path]
-!runfile [relative path]
-!run [code]
+runfile [absolute path]
+runfile [relative path]
+run [code]
 ```
 
 You can run file by dragging it onto LuaEngine.exe
