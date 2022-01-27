@@ -20,6 +20,7 @@ static const luaL_Reg keyboardLib[] = {
 	{"getKeyState",			Keyboard::GeyKeyState},								// keyboard.getKeyState(int: key)
 	{"getAsyncKeyState",	Keyboard::GeyAsyncKeyState},						// keyboard.getAsyncKeyState(int: key)
 	{"setKeyState",			Keyboard::SetKeyState},								// keyboard.setKeyState(int: key, bool: state)
+	{"execute",				Keyboard::Execute},									// keyboard.execute(string: text)
 	{NULL, NULL}
 };
 
